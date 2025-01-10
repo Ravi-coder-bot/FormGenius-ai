@@ -1,4 +1,4 @@
-## 📌 AI Form Builder
+## 📌 FormGenius-ai
  
 Welcome to the **AI Form Builder** repository! This project leverages cutting-edge tools and frameworks to create a dynamic and efficient form-building platform powered by AI. The AI Form Builder provides a seamless drag-and-drop experience, empowering users to create forms effortlessly while collecting valuable insights.This is an AI-powered form builder application built using Next.js, Next-auth, Shadcn UI, Gemini AI API, Drizzle, PostgreSQL, and TypeScript.
 
