@@ -73,3 +73,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## Preview
+https://github.com/harshxraj/ai-form-builder/assets/128404446/bc419920-edcb-4aa6-baa2-79fc2e4c360b
+
+## Dashboard
+![Screenshot 2024-03-17 181850](https://github.com/harshxraj/ai-form-builder/assets/128404446/5b384e5a-6cc6-4120-945c-b6471a9717f0)
+
+
+## Results Page
+![Screenshot 2024-03-17 183821](https://github.com/harshxraj/ai-form-builder/assets/128404446/14e8492c-07e4-4a8d-a82e-18c5df1c0d86)
