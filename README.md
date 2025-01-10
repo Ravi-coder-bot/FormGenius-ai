@@ -1,3 +1,41 @@
+## 📌 FormGenius-ai
+ 
+Welcome to the **AI Form Builder** repository! This project leverages cutting-edge tools and frameworks to create a dynamic and efficient form-building platform powered by AI. The AI Form Builder provides a seamless drag-and-drop experience, empowering users to create forms effortlessly while collecting valuable insights.This is an AI-powered form builder application built using Next.js, Next-auth, Shadcn UI, Gemini AI API, Drizzle, PostgreSQL, and TypeScript.
+
+---
+
+## 🌟 Features
+
+- **AI-Powered Form Creation**: Users can create forms by simply providing prompts, and the AI generates the necessary form fields based on the prompts.
+- **Authentication**: Next-auth is integrated for secure authentication, allowing users to sign up, sign in, and manage their accounts.
+- **Responsive Design:** Shadcn UI ensures that the application is responsive and looks great across various devices and screen sizes.
+- **Admin Dashboard**: Admin users have access to a dashboard where they can view all responses submitted to their forms.
+- **Persistent Data Storage**: PostgreSQL is used as the database to store form configurations, user information, and form responses securely.
+- **Type Safety**: TypeScript is employed throughout the project to provide type safety and enhance code maintainability.
+- **Gemini AI API Integration**: The Gemini AI API is used to power the AI form creation.
+
+---
+
+## 🚀 Tools & Technologies
+
+This project is built using:
+
+- **Next.js 14**: Fast, SEO-friendly frontend framework.
+- **Server Actions**: For seamless backend API integration.
+- **Prisma ORM**: SQL ORM for efficient database management.
+- **TailwindCSS**: For rapid, responsive styling.
+- **Neon PostgreSQL**: Scalable and reliable database solution.
+- **Next-auth**: A complete open-source authentication solution for Next.js applications.
+- **Shadcn UI**: A UI framework for building Modern, responsive and costomizable web interfaces.
+- **Gemini AI API**: An API for integrating artificial intelligence capabilities into applications.
+- **PostgreSQ**L: A powerful, open-source relational database system.
+- **TypeScript**: A statically typed superset of JavaScript that provides type safety and enhance code maintainability.
+
+
+---
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +72,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## Preview
+https://github.com/harshxraj/ai-form-builder/assets/128404446/bc419920-edcb-4aa6-baa2-79fc2e4c360b
+
+## Dashboard
+![Screenshot 2024-03-17 181850](https://github.com/harshxraj/ai-form-builder/assets/128404446/5b384e5a-6cc6-4120-945c-b6471a9717f0)
+
+
+## Results Page
+![Screenshot 2024-03-17 183821](https://github.com/harshxraj/ai-form-builder/assets/128404446/14e8492c-07e4-4a8d-a82e-18c5df1c0d86)
