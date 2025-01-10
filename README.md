@@ -1,3 +1,24 @@
+#📌 AI Form Builder
+ 
+Welcome to the **AI Form Builder** repository! This project leverages cutting-edge tools and frameworks to create a dynamic and efficient form-building platform powered by AI. The AI Form Builder provides a seamless drag-and-drop experience, empowering users to create forms effortlessly while collecting valuable insights.This is an AI-powered form builder application built using Next.js, Next-auth, Shadcn UI, Gemini AI API, Drizzle, PostgreSQL, and TypeScript.
+
+---
+
+##🌟 Features
+
+- **AI-Powered Form Creation**: Users can create forms by simply providing prompts, and the AI generates the necessary form fields based on the prompts.
+- **Authentication**: Next-auth is integrated for secure authentication, allowing users to sign up, sign in, and manage their accounts.
+- **Responsive Design:** Shadcn UI ensures that the application is responsive and looks great across various devices and screen sizes.
+- **Admin Dashboard**: Admin users have access to a dashboard where they can view all responses submitted to their forms.
+- **Persistent Data Storage**: PostgreSQL is used as the database to store form configurations, user information, and form responses securely.
+- **Theme Customization**: The app offers six different themes for users to choose from, allowing them to customize the appearance of their app interface.
+- **Type Safety**: TypeScript is employed throughout the project to provide type safety and enhance code maintainability.
+- **Gemini AI API Integration**: The Gemini AI API is used to power the AI form creation.
+
+---
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
