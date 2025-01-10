@@ -76,11 +76,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ---
 
 ## Preview
-https://github.com/harshxraj/ai-form-builder/assets/128404446/bc419920-edcb-4aa6-baa2-79fc2e4c360b
-
-## Dashboard
-![Screenshot 2024-03-17 181850](https://github.com/harshxraj/ai-form-builder/assets/128404446/5b384e5a-6cc6-4120-945c-b6471a9717f0)
 
 
-## Results Page
-![Screenshot 2024-03-17 183821](https://github.com/harshxraj/ai-form-builder/assets/128404446/14e8492c-07e4-4a8d-a82e-18c5df1c0d86)
+
+<img width="934" alt="formG" src="https://github.com/user-attachments/assets/c9c77df0-aa5f-4e29-9ec3-b9b2d7d4199b" />
+
+<img width="920" alt="formG2" src="https://github.com/user-attachments/assets/957820f7-3bfb-42d3-b204-71c765d9ec70" />
