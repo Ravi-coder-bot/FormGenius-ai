@@ -52,6 +52,39 @@ pnpm dev
 bun dev
 ```
 
+Create a `.env` file in the root of your project and add the following:
+
+```plaintext
+KINDE_SITE_URL=<your-kinde-site-url>
+KINDE_POST_LOGOUT_REDIRECT_URL=<your-post-logout-url>
+KINDE_POST_LOGIN_REDIRECT_URL=<your-post-login-url>
+NEXT_PUBLIC_APP_URL=<your-app-url>
+
+DATABASE_URL=<direct-database-url>
+DIRECT_DATABASE_URL=<direct-database-url>
+
+NEXT_PUBLIC_GEMINI_API_KEY=<gemini-api-key>
+
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
+```
+1. **Log in to Neon**:
+
+   - Navigate to [Neon](https://neon.tech) and log in to your account.
+
+2. **Access Project Settings**:
+
+   - Select your project and go to the **Settings** tab.
+
+3. **Find URLs**:
+
+   - **Direct Database URL**: Look under the connection settings for the URL labeled "Direct Connection". Copy and paste it into your `.env` file as `DIRECT_DATABASE_URL`.
+   - **Pooler Database URL**: Look under the "Connection Pooler" section for the Pooler URL. Use this as `DATABASE_URL` in your `.env` file.
+
+   > **Note:** If you encounter issues accessing your Neon database, refer to the troubleshooting guide in `_neon_database_help/database.md` for detailed steps.
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
