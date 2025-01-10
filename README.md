@@ -17,6 +17,24 @@ Welcome to the **AI Form Builder** repository! This project leverages cutting-ed
 
 ---
 
+## 🚀 Tools & Technologies
+
+This project is built using:
+
+- **Next.js 14**: Fast, SEO-friendly frontend framework.
+- **Server Actions**: For seamless backend API integration.
+- **Prisma ORM**: SQL ORM for efficient database management.
+- **TailwindCSS**: For rapid, responsive styling.
+- **Neon PostgreSQL**: Scalable and reliable database solution.
+- **Next-auth**: A complete open-source authentication solution for Next.js applications.
+- **Shadcn UI**: A UI framework for building Modern, responsive and costomizable web interfaces.
+- **Gemini AI API**: An API for integrating artificial intelligence capabilities into applications.
+- **PostgreSQ**L: A powerful, open-source relational database system.
+- **TypeScript**: A statically typed superset of JavaScript that provides type safety and enhance code maintainability.
+
+
+---
+
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
