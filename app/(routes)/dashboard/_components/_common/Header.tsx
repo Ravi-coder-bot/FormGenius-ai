@@ -62,7 +62,7 @@ const Header = () => {
          border-r border-gray-600"
         >
           <Logo url="/dashboard" />
-          <span className="sr-only">Formy</span>
+          <span className="sr-only">FormGen</span>
         </div>
         <ul className="hidden md:flex flex-row">
           {NAV_MENUS.map((item, idx) => (
