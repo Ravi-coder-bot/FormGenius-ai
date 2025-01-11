@@ -8,13 +8,14 @@ export default function Home() {
     <div className="w-full">
       <div className="hero-section w-full min-h-screen">
         <div className="w-full flex flex-col items-center justify-center py-10 max-w-4xl mx-auto">
+          <a href="https://github.com/Ravi-coder-bot/FormGenius-ai" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <div className="rounded-full flex items-center bg-white border font-medium gap-1 text-sm h-auto p-2 bg-muted max-w-80">
             <div className="p-2 h-5 shrink-0 flex items-center text-xs justify-center text-white bg-primary rounded-full">
               New
             </div>
             Created with ❤️ by Script Squad
             <ChevronRight className="w-4 h-4" />
-          </div>
+          </div> </a>
 
           <div className="flex flex-col mt-5 items-center text-center">
             <h1 className="text-6xl font-black">
@@ -43,7 +44,7 @@ export default function Home() {
                 className="h-12  border-primary text-primary text-base font-medium min-w-32"
                 asChild
               >
-                <a className="flex items-center gap-1">
+                <a className="flex items-center gap-1" href="https://drive.google.com/file/d/1TKSHPJhh45IcfuXyMlYuqPpghp6AkaBV/view?usp=drivesdk">
                   <Video size="17px" />
                   Watch video
                 </a>
