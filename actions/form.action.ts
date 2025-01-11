@@ -1,5 +1,6 @@
 "use server"  
 
+import { FormWithSettings } from "@/@types/form.type";
 import { defaultBackgroundColor, defaultPrimaryColor } from "@/constant";
 import { generateUniqueId } from "@/lib/helper";
 import { prisma } from "@/lib/prismadb";
@@ -253,6 +254,122 @@ export async function fetchAllForms() {
       return {
         success: false,
         message: "Failed to update publish status",
+      };
+    }
+  }
+
+  export async function fetchPublishFormById(formId: string): Promise<{
+    form?: FormWithSettings | null;
+    success: boolean;
+    message: string;
+  }> {
+    try {
+      if (!formId) {
+        return {
+          success: false,
+          message: "FormId is required",
+        };
+      }
+      const form = await prisma.form.findFirst({
+        where: {
+          formId: formId,
+          published: true,
+        },
+        include: {
+          settings: true,
+        },
+      });
+  
+      if (!form) {
+        return {
+          success: false,
+          message: "Form not found",
+        };
+      }
+  
+      return {
+        success: true,
+        message: "Form fetched successfully",
+        form,
+      };
+    } catch (error) {
+      return {
+        success: false,
+        message: "Something went wrong",
+      };
+    }
+  }
+  
+  export async function submitResponse(formId: string, response: string) {
+    try {
+      if (!formId) {
+        return {
+          success: false,
+          message: "FormId is required",
+        };
+      }
+      await prisma.form.update({
+        where: {
+          formId: formId,
+          published: true,
+        },
+        data: {
+          formResponses: {
+            create: {
+              jsonReponse: response,
+            },
+          },
+          responses: {
+            increment: 1,
+          },
+        },
+      });
+      return {
+        success: true,
+        message: "Response submitted",
+      };
+    } catch (error) {
+      return {
+        success: false,
+        message: "Something went wrong",
+      };
+    }
+  }
+  
+  export async function fetchAllResponseByFormId(formId: string) {
+    try {
+      const session = getKindeServerSession();
+      const user = await session.getUser();
+  
+      if (!user) {
+        return {
+          success: false,
+          message: "Unauthorized to use this resource",
+        };
+      }
+  
+      const form = await prisma.form.findUnique({
+        where: {
+          formId: formId,
+        },
+        include: {
+          formResponses: {
+            orderBy: {
+              createdAt: "desc",
+            },
+          },
+        },
+      });
+  
+      return {
+        success: true,
+        message: "Form fetched successfully",
+        form,
+      };
+    } catch (error) {
+      return {
+        success: false,
+        message: "Something went wrong",
       };
     }
   }
