@@ -52,6 +52,39 @@ pnpm dev
 bun dev
 ```
 
+Create a `.env` file in the root of your project and add the following:
+
+```plaintext
+KINDE_SITE_URL=<your-kinde-site-url>
+KINDE_POST_LOGOUT_REDIRECT_URL=<your-post-logout-url>
+KINDE_POST_LOGIN_REDIRECT_URL=<your-post-login-url>
+NEXT_PUBLIC_APP_URL=<your-app-url>
+
+DATABASE_URL=<direct-database-url>
+DIRECT_DATABASE_URL=<direct-database-url>
+
+NEXT_PUBLIC_GEMINI_API_KEY=<gemini-api-key>
+
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
+```
+1. **Log in to Neon**:
+
+   - Navigate to [Neon](https://neon.tech) and log in to your account.
+
+2. **Access Project Settings**:
+
+   - Select your project and go to the **Settings** tab.
+
+3. **Find URLs**:
+
+   - **Direct Database URL**: Look under the connection settings for the URL labeled "Direct Connection". Copy and paste it into your `.env` file as `DIRECT_DATABASE_URL`.
+   - **Pooler Database URL**: Look under the "Connection Pooler" section for the Pooler URL. Use this as `DATABASE_URL` in your `.env` file.
+
+   > **Note:** If you encounter issues accessing your Neon database, refer to the troubleshooting guide in `_neon_database_help/database.md` for detailed steps.
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -76,11 +109,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ---
 
 ## Preview
-https://github.com/harshxraj/ai-form-builder/assets/128404446/bc419920-edcb-4aa6-baa2-79fc2e4c360b
+
+
+<img width="920" alt="formG2" src="https://github.com/user-attachments/assets/957820f7-3bfb-42d3-b204-71c765d9ec70" />
 
 ## Dashboard
-![Screenshot 2024-03-17 181850](https://github.com/harshxraj/ai-form-builder/assets/128404446/5b384e5a-6cc6-4120-945c-b6471a9717f0)
+<img width="934" alt="formG" src="https://github.com/user-attachments/assets/c9c77df0-aa5f-4e29-9ec3-b9b2d7d4199b" />
 
 
-## Results Page
-![Screenshot 2024-03-17 183821](https://github.com/harshxraj/ai-form-builder/assets/128404446/14e8492c-07e4-4a8d-a82e-18c5df1c0d86)
